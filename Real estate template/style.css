@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bona Nova', serif;
+}
+.nav-link{
+    color:white;
+}
+.navbar{
+    background-color:#DADADA;
+}
+.navbar-nav{
+   margin-left: auto;
+}
+.navbar-brand{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Ultra', serif;
+}
+
+.main{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./bg.jpg)no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+   
+}
+.main:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(bg2.jpg);
+}
+.main h1{
+    font-size: 45px;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+}
+.main p{
+    font-size: 26px;
+    font-weight: 500;
+    color: white;
+}
+.card{
+    background-color: white;
+    border: none;
+    transition-duration: 0.5s;
+}
+
+@media only screen and (max-width: 1000px){
+        .card{
+            margin-top: 15px;
+        }
+}
+.main span{
+    color: gray;
+    font-size: 600;
+}
+.main .btn1{
+    background-color: coral;
+    color: white;
+    border: none;
+    width: 90%;
+    height: 40px;
+    margin-top: 32px;
+    outline: none;
+}
+.btn1:hover{
+    background-color: rgb(226, 136, 121);
+    transition: 0.5s;
+}
+
+.btn2{
+    background: black;
+    color: white;
+    height: 45px;
+    width: 200px;
+    outline: none;
+    border: none;
+}
+.btn2:hover{
+    background-color: rgb(226, 136, 121);
+    color: black;
+    transition: 0.5s;
+}
+.land{
+    background-color: #f5edf9;
+}
+@media only screen and (max-width: 1000px){
+    .land h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .land p{
+        text-align: center;
+       font-size: 20px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 800px){
+    .land h1{
+        text-align: center;
+        font-size: 25px;
+    }
+    .land p{
+        text-align: center;
+        font-size: 16px;
+    }
+    .btn2{
+        text-align: center;
+        margin-right: 30px;
+        
+    }
+    
+}
+.land h1{
+    font-family: 'Abril Fatface', cursive;
+}
+.rent{
+    background-color:  #f2e4f8;
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+}
+
+@media only screen and (max-width: 1000px){
+     .rent{
+        padding-top: 0;
+        padding-bottom: 0;
+
+     }
+     .rent h1{
+        padding-top: 0;
+        padding-bottom: 0;
+     }
+}
+@media only screen and (max-width: 1000px){
+    .rent{
+       padding-top: 0;
+       padding-bottom: 0;
+
+    }
+    .rent h1{
+       padding-top: 0;
+       padding-bottom: 0;
+    }
+}
+.btnc{
+    height: 45px;
+    width: 150px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    padding: 10px;
+    font-weight: 500;
+}
+.btnc:hover{
+    background-color:black;
+    color:white;
+    transition: 0.5s;
+}
+.rent h1{
+    font-weight: bolder;
+    font-family: 'Ultra', serif;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.rent h6{
+    font-weight: bold;
+}
+
+.sale{
+    background-color:#f2e4f8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+@media only screen and (max-width: 1000px){
+    .sale{
+       padding-top: 0;
+       padding-bottom: 0;
+
+    }
+    .sale h1{
+       padding-top: 0;
+       padding-bottom: 0;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .sale{
+       padding-top: 0;
+       padding-bottom: 0;
+
+    }
+    .sale h1{
+       padding-top: 0;
+       padding-bottom: 0;
+    }
+}
+.sale h1{
+    font-weight: bolder;
+    font-family: 'Ultra', serif;
+    padding-top: 30px;
+    padding-bottom:30px ;
+}
+.sale h6{
+    font-weight: bold;
+}
+.btnf{
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 45px;
+    display: inline-block;
+}
+@media only screen and (max-width: 600px){
+    .btnf{
+        margin-left: 30px;
+    }
+    
+}
+.btnf:hover{
+    background-color: rgb(226, 136, 121);
+    color: black;
+    transition: 0.5s;
+}
+.offer{
+    background-color: #fbf6e5;
+}
+.offer h1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+.fab{
+    font-size: 25px;
+    color: gray;
+}
+.fab:hover{
+    color: white;
+    transition: o.5s;
+}
+
+@media only screen and (max-width: 600px){
+        .f1{
+           padding-right: 0;
+           padding-left: 0;
+           
+           text-align: left;
+           padding-right: 5px;
+
+        }
+}
+.contact{
+    background-color:  #f5edf9;
+   
+}
+
+.contact h1{
+    font-family: 'Ultra', serif;
+}
+
+.total{
+    height: 300px;
+}
+.total img{
+    height: 300px;
+}
+.total h4{
+    font-weight: bolder;
+    color: white;
+}
+.total p{
+    color: white;
+    font-size: 20px;
+}
+
+
